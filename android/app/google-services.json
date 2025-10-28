@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425721399185",
+    "project_id": "ogustavoress-golden-vault-app",
+    "storage_bucket": "ogustavoress-golden-vault-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425721399185:android:44f3e1f47ad2bec372bc30",
+        "android_client_info": {
+          "package_name": "br.com.ogustavoress.checkpoint3_550983_552041"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1pX0o5k-AsukqIQQBGtYWJE46ujoUn-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

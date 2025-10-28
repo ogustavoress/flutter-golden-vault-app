@@ -34,6 +34,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.0
+  firebase_auth: ^6.1.1
+  cloud_firestore: ^6.0.3
+  shared_preferences: ^2.5.3
+  google_fonts: ^6.3.2
+  lottie: ^3.1.2
+  http: ^1.2.2
+
+  
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +65,30 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/fonts/montserrat/
+    - assets/fonts/playfair_display/
+  
+    - assets/lottie/home.json
+    - assets/lottie/intro.json
+    - assets/lottie/loading.json
+    - assets/lottie/login.json
+    - assets/lottie/splash.json
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf
+          style: italic
+        
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/playfair_display/PlayfairDisplay-VariableFont_wght.ttf
+        - asset: assets/fonts/playfair_display/PlayfairDisplay-Italic-VariableFont_wght.ttf
+          style: italic
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
